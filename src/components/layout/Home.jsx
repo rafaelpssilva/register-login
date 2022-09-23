@@ -1,5 +1,5 @@
 import React from "react";
-import ImagemApresentacao from "../../../public/ImagemApresentacao.png";
+import ImagemApresentacao from "../../assets/imagemApresentacao.png";
 
 function Home() {
     return (

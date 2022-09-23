@@ -1,5 +1,5 @@
 import React from "react";
-import Close from "../../../public/icons/Close";
+import Close from "../../assets/Close";
 
 import Input from "./Input";
 function FormRegister({ openForm, setOpenForm }) {
