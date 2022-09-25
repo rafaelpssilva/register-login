@@ -1,12 +1,14 @@
 import React from "react";
 
-function Input({ type, name, placeholder, id }) {
+function Input({ type, name, placeholder, id, value, handleChange }) {
     return (
         <input
             type={type}
             name={name}
             id={id}
             placeholder={placeholder}
+            value={value}
+            onChange={(e) => handleChange(e.target.value)}
             className="
         bg-transparent
         border-2
