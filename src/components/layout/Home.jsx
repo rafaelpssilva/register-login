@@ -4,7 +4,7 @@ import ImagemApresentacao from "../../assets/imagemApresentacao.png";
 function Home() {
     return (
         <section>
-            <div className="w-fit m-auto">
+            <div className="w-[40%] m-auto">
                 <img src={ImagemApresentacao} alt="homem usando computador" />
             </div>
             <div className="mt-4 text-center">
