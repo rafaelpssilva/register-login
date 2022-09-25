@@ -12,8 +12,8 @@ function Input({ type, name, placeholder, id }) {
         border-2
         border-darkBlue
         rounded-[10px]                                  
-        py-[18px]
-        px-5
+        py-[13px]
+        px-4
         text-lg
         text-black
         placeholder:text-darkBlue/50
