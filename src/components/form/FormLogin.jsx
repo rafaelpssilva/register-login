@@ -12,7 +12,7 @@ function FormLogin() {
     function LoginValidate(e) {
         e.preventDefault();
 
-        window.location.replace("http://192.168.1.19:5173/login");
+        window.location.replace("https://registerapi.vercel.app/login");
     }
 
     return (
