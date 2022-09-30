@@ -62,7 +62,7 @@ confirm password: ${newConfirmPassword}
         setNewPassword("");
         setNewConfirmPassword("");
 
-        console.log(dataUsers.map((user) => console.log(user)));
+        console.log(dataUsers.map((user) => console.log(user.email)));
     }
 
     return (
@@ -72,7 +72,7 @@ confirm password: ${newConfirmPassword}
             </Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className="bg-black/60 inset-0 fixed" />
-                <Dialog.Content className="fixed overflow-auto bg-formColor p-6 text-black top-[16%] left-1/2 -translate-x-1/2 w-full rounded-t-[40px]">
+                <Dialog.Content className="fixed overflow-auto bg-formColor p-6 text-black bottom-[0%] left-1/2 -translate-x-1/2 w-full rounded-t-[40px]">
                     <div className="flex items-center justify-between">
                         <div className="text-darkBlue">
                             <Dialog.Description className="text-xl leading-7">
@@ -131,7 +131,7 @@ confirm password: ${newConfirmPassword}
                                 className="bg-darkBlue w-full py-4 px-16 rounded-2xl text-yellow font-semibold"
                                 onClick={(e) => validateForm(e)}
                             >
-                                Login
+                                Register
                             </button>
                         </div>
 
